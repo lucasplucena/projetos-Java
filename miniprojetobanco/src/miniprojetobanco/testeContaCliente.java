@@ -3,7 +3,7 @@ package miniprojetobanco;
 public class testeContaCliente {
 	public static void main(String[] args) {
 		Cliente newCliente = new Cliente();
-		newCliente.setNome("Sacul");
+		newCliente.setNome("Lucas");
 		newCliente.setCpf("12345678910");
 		newCliente.setProfissao("Rei do Camarote");
 		

@@ -14,7 +14,7 @@ public class Cliente {
 		this.nome = nome;
 		}
 		else {
-			System.out.println("Você precisa informar um nome");
+			System.out.println("Voce precisa informar um nome");
 		}
 	}
 

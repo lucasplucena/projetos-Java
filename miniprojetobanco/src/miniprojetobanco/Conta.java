@@ -10,7 +10,7 @@ public class Conta {
 		if (numero > 0) {
 			this.numero = numero;
 		} else {
-			System.out.println("O número não é válido");
+			System.out.println("The number is not valid");
 		}
 	}
 
@@ -45,7 +45,7 @@ public class Conta {
 		if (agencia != null) {
 			this.agencia = agencia;
 		} else {
-			System.out.println("Agência não é valida");
+			System.out.println("Agencia nao eh valida");
 		}
 	}
 
@@ -66,7 +66,7 @@ public class Conta {
 	}
 
 	public void consultaSaldo() {
-		System.out.printf("%s, Seu saldo é de R$ %.2f\n",this.getCliente().getNome(), this.getSaldo());
+		System.out.printf("%s, Seu saldo e' de R$ %.2f\n",this.getCliente().getNome(), this.getSaldo());
 	}
 
 }
